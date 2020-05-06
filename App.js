@@ -3,7 +3,7 @@ const symbols = ["🍒","🍏","🍇"];
 const playRound = ()=>{
   const res = [];
   for(let i = 0; i < 3; i++){
-     res.push(symbols[Math.floor(Math.random()*3)]);
+     res.push(symbols[Math.floor(Math.random()*symbols.length)]);
   }
   return res;
 };
