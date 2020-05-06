@@ -3,6 +3,7 @@ const Slots = (props)=>{
     <div>
       <Row  row={props.playRound()}/>
       <Row  row={props.playRound()}/>
+      <Row  row={props.playRound()}/>
     </div>
 
   );
