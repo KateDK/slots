@@ -1,4 +1,4 @@
-const symbols = ["X","O","7"];
+const symbols = ["🍒","🍏","🍇"];
 
 const playRound = ()=>{
   const res = [];
